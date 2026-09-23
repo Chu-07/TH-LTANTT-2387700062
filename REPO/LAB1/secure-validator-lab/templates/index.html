@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Validator Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light py-5">
+<div class="container">
+    <h2 class="mb-4 text-center">Secure Validator Demo</h2>
+    <div class="card shadow-sm p-4 mb-4">
+        <form method="POST">
+            <div class="mb-3">
+                <label class="form-label">Email:</label>
+                <input type="text" class="form-control" name="email" value="hongphuoc@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">URL:</label>
+                <input type="text" class="form-control" name="url" value="https://www.hutech.edu.vn">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Filename:</label>
+                <input type="text" class="form-control" name="filename" value="../../etc/passwd">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">SQL Input:</label>
+                <input type="text" class="form-control" name="sql" value="' OR 1=1 --">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">HTML Input:</label>
+                <input type="text" class="form-control" name="html" value="<script>alert('XSS')</script>">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Xác thực ngay</button>
+        </form>
+    </div>
+
+    {% if results %}
+    <div class="card shadow-sm p-4">
+        <h4 class="card-title mb-3">Kết quả xác thực:</h4>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Email:</strong> {{ results.email }}</li>
+            <li class="list-group-item"><strong>URL:</strong> {{ results.url }}</li>
+            <li class="list-group-item"><strong>Filename:</strong> {{ results.filename }}</li>
+            <li class="list-group-item"><strong>SQL Sanitized:</strong> <code>{{ results.sql }}</code></li>
+            <li class="list-group-item"><strong>HTML Sanitized:</strong> <code>{{ results.html }}</code></li>
+        </ul>
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
