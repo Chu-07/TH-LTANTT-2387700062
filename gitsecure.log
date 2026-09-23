@@ -1,2 +1,7 @@
 [2026-09-23 15:39:15.575606] Sensitive info found in REPO/LAB2/pre-commit-hook-test/bad.py: pattern password\s*=\s*['\"][^'\"]{4,}['\"]
 [2026-09-23 15:39:15.576141] Bandit not installed. Run: pip install bandit
+[2026-09-23 20:18:29.349873] Bandit not installed. Run: pip install bandit
+[2026-09-23 20:22:39.247118] Sensitive info found in REPO/LAB2/pre-commit-hook-test/bad.py: pattern password\s*=\s*['\"][^'\"]{4,}['\"]
+[2026-09-23 20:24:34.758075] Sensitive info found in REPO/LAB2/pre-commit-hook-test/aws_config.py: pattern (AKIA|ASIA)[A-Z0-9]{16}
+[2026-09-23 20:32:07.805205] Sensitive info found in REPO/LAB2/pre-commit-hook-test/aws_config.py: pattern (AKIA|ASIA)[A-Z0-9]{16}
+[2026-09-23 20:32:07.806660] Sensitive info found in REPO/LAB2/pre-commit-hook-test/bad.py: pattern password\s*=\s*['\"][^'\"]{4,}['\"]
