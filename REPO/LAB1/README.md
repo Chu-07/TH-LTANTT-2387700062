@@ -100,4 +100,3 @@ Mặc dù ứng dụng vượt qua toàn bộ Unit Test ban đầu, việc sử 
 
 Bài thực hành hoàn thiện việc xây dựng một thư viện kiểm tra đầu vào cơ bản và tích hợp thành công trên nền tảng web Flask. Tuy nhiên, qua 6 thực nghiệm bypass, có thể kết luận rằng phương pháp tiếp cận theo hướng "Blacklist" (Danh sách đen) và Regex thô sơ là không đủ độ tin cậy để bảo vệ ứng dụng thực tế. Kẻ tấn công luôn tìm ra những cú pháp thay thế hoặc tận dụng đặc tả của hệ điều hành và giao thức mạng để qua mặt bộ lọc.
 
-> **💡 Khuyến nghị:** Trong các dự án bảo mật tiếp theo, cần chuyển đổi sang nguyên tắc **Whitelist** (danh sách trắng), sử dụng Parameterized Queries/Prepared Statements để ngừa SQL Injection triệt để, và ứng dụng các bộ thư viện sanitizer chuyên nghiệp (như Bleach) để làm sạch HTML DOM.
