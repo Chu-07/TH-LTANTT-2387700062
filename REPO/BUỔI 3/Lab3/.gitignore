@@ -1,0 +1,11 @@
+# Python-generated files
+**/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Local configuration and logs
+netrecon/.env
+netrecon/netrecon.log
+
+# Locally generated TLS certificates and private keys
+secure-chat/certs/
