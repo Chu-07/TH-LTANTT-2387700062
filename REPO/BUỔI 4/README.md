@@ -12,7 +12,7 @@
 
 Em thực hành xây dựng Web Vulnerability Scanner để nhận diện dấu hiệu XSS, SQL Injection, CSRF và SSRF; đồng thời tìm hiểu JWT, OAuth 2.0, quản lý token và xác thực API Gateway. Các phép kiểm tra được thực hiện trong môi trường lab trên máy cá nhân.
 
-**Minh chứng:** thư mục `image/` hiện có 41 ảnh PNG: 32 ảnh Web (`lab4-1` đến `lab4-32`) và 9 ảnh JWT (`lab4-33` đến `lab4-42`, thiếu `lab4-37`). Các hình được trình bày theo thứ tự số; kết quả dưới đây chỉ dựa trên nội dung ảnh và mã nguồn.
+**Minh chứng:** bộ ảnh gốc có 41 ảnh PNG: 32 ảnh Web (`lab4-1` đến `lab4-32`) và 9 ảnh JWT (`lab4-33` đến `lab4-42`, thiếu `lab4-37`). Bản công khai chèn 40 ảnh an toàn; ảnh `lab4-36` còn lộ token được giữ cục bộ. Các hình được trình bày theo thứ tự số; kết quả dưới đây chỉ dựa trên nội dung ảnh và mã nguồn.
 
 ## 2. Phần 4.2 – WebVulnScanner
 
