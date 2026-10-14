@@ -432,12 +432,12 @@ Pytest thu thập 12 test, nhưng ảnh hiện chỉ xác minh bốn test đầu
 API Gateway trả HTTP 200 với Access Token hợp lệ và HTTP 401 với Bearer invalid.<br>
 Qua bài thực hành, em phân biệt dấu hiệu nghi vấn với khai thác thành công và hiểu vai trò của chữ ký, thời hạn, loại token trong xác thực API.
 
-## 5. Tài liệu tham khảo và nguồn hỗ trợ
+## 5. Tài liệu tham khảo
+
+Các nguồn đã dùng khi đối chiếu nội dung và mã nguồn:
 
 - [Lab 04 – Bảo mật Web App và API](./lab-04.pdf): phần 4.2, trang 5–18; phần 4.4, trang 21–29.
 - [Tài liệu Flask](https://flask.palletsprojects.com/en/stable/quickstart/).
 - [Tài liệu unittest của Python](https://docs.python.org/3.14/library/unittest.html).
 - [Tài liệu pytest về tmp_path](https://docs.pytest.org/en/stable/how-to/tmp_path.html).
 - [Tài liệu PyJWT](https://pyjwt.readthedocs.io/en/stable/usage.html).
-
-Mã nguồn dựa trên giáo trình, có AI hỗ trợ chuyển mã trong ảnh và các điều chỉnh như ghép query đúng, xử lý lỗi HTTP, chuẩn hóa báo cáo và kiểm tra vòng đời token. Em trực tiếp cài môi trường, chạy chương trình, kiểm thử và chụp minh chứng; README được AI hỗ trợ tổng hợp từ các file và ảnh này.
