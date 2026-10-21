@@ -492,7 +492,7 @@ Mã nguồn, cấu hình, README và đủ **26 ảnh** đã được rà soát 
 
 `.gitignore` loại trừ môi trường ảo, cache, file môi trường, khóa riêng, cấu hình editor và file tạm; vẫn giữ mã Python, Unit Test, cấu hình luật, requirements, SARIF và ảnh minh chứng. Không sửa các file Python hoặc nội dung ảnh trong quá trình chuẩn bị xuất bản.
 
-Theo dõi nội dung tại [thư mục lab5 trên GitHub](https://github.com/Chu-07/TH-LTANTT-2387700062/tree/main/lab5) và [lịch sử thay đổi lab5](https://github.com/Chu-07/TH-LTANTT-2387700062/commits/main/lab5). Bộ 26 ảnh thực hành chưa có ảnh chụp thao tác Git; không dùng các ảnh này để chứng minh commit hoặc push.
+Theo dõi nội dung tại [thư mục lab5 trên GitHub](https://github.com/Chu-07/TH-LTANTT-2387700062/tree/main/REPO/lab5) và [lịch sử thay đổi lab5](https://github.com/Chu-07/TH-LTANTT-2387700062/commits/main/REPO/lab5). Bộ 26 ảnh thực hành chưa có ảnh chụp thao tác Git; không dùng các ảnh này để chứng minh commit hoặc push.
 
 ### Minh chứng cần xác minh
 
