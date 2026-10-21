@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment files and private credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Temporary and system files
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Local-only original evidence backups
+private-evidence/
