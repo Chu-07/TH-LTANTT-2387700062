@@ -1,0 +1,7 @@
+.main {max-width: 1100px; margin: 0 auto; padding: 3rem 1.5rem 5rem;}
+.hero {padding: 3rem; border-radius: 20px; background: linear-gradient(135deg,#12213d,#24598e); color: white;}
+.hero h1 {font-size: clamp(2rem,5vw,3.5rem); line-height: 1.12;}
+.hero p {max-width: 760px; font-size: 1.1rem;}
+.eyebrow {font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #a5dcff;}
+.grid {display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 1.25rem; margin-top: 2rem;}
+.grid article {padding: 1.5rem; border: 1px solid #d4deeb; border-radius: 14px; background: var(--ifm-background-surface-color);}

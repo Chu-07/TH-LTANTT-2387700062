@@ -1,0 +1,5 @@
+test-job:
+  image: alpine:3.20
+  script:
+    - echo "This is my first job!"
+    - date
